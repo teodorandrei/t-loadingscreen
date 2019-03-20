@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+        <script>
+                window.onload = function() {
+                  var context = new AudioContext();
+                }
+                </script>
+  <meta charset="UTF-8" />
+  <title>Your Server Here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="keks.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- remember, jQuery is completely optional -->
+  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type='text/javascript' src='jquery.particleground.js'></script>
+  <script type='text/javascript' src='demo.js'></script>
+  <script type='text/javascript' src="misc.js"></script>
+</head>
+
+<body onload='misc()'>
+        
+<div id="particles">
+    
+  <div id="intro">
+       <div><img src='Logo.png' style='width:300px;heigth:300px'>
+    
+    </div>
+        <hr style='width:300px'>
+       
+           <div> <font face='Montserrat' size='15px'>Your Cool Server Name</font></div>
+            <div>
+                <p class='loading'>Connecting</p>
+            </div>
+
+            <div>
+             
+                    <audio id='muzica' volume='0.1' autoplay controls>
+
+                            <source src="lalala.mp3" type="audio/mpeg">
+                            Browser-ul tau nu suporta acest tip de fisier.
+                            
+                          </audio>
+                          <script>
+                                var audio = document.getElementById("muzica");
+                                audio.volume = 0.2;
+                              </script>
+
+                          
+            </div>
+
+            <div>                <img src='Discord.png' style='width:70px;height:17px'>
+            </div>
+            <div>
+                
+                <font face='Montserrat' size="3px">discord.gg/example</font>
+            </div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+</html>
